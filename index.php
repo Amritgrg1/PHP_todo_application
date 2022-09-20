@@ -21,11 +21,12 @@
         <button type="submit" class="btn btn-primary">Add todo</button>
 </form>
 <table class="table table-hover table-striped mt-5">
-  <thead>
+  <thead style="background:black;color:white;">
     <tr>
       <th scope="col">ID</th>
       <th scope="col">TODO Item </th> 
       <th scope="col">Action</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
@@ -43,6 +44,11 @@
   </tbody>
 </table>
 </div>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script>
+
+
   </body>
 </html>
